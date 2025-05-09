@@ -13,6 +13,7 @@ This database is ideal for:
 - Teaching **relational database design** in real-world scenarios
 
 ---
+![trend](https://github.com/ravenfire24/Retail-sql-database/blob/main/Retail-sql-database.gif)
 
 ## 🛠️ Installation
 
