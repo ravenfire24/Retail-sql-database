@@ -87,11 +87,7 @@ To learn more about MySQL and how to interact with this database:
 - [MySQL Workbench User Guide](https://dev.mysql.com/doc/workbench/en/)
 - [SQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.7/en/)
 
----
 
-## 🚀 Getting Started
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/classicmodels-sql.git
+
 
