@@ -87,8 +87,6 @@ To learn more about MySQL and how to interact with this database:
 - [MySQL Installation Guide](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 - [MySQL Workbench User Guide](https://dev.mysql.com/doc/workbench/en/)
 - [SQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.7/en/)
-  
-![alt text](https://github.com/ravenfire24/Retail-sql-database/blob/main/Screenshot%201.png)
 
 ![alt text](https://github.com/ravenfire24/Retail-sql-database/blob/main/Screenshot%204.png)
 
