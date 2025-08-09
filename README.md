@@ -1,23 +1,42 @@
-# Retail-sql-database
-ClassicModels SQL database for managing customers, orders, products, and payments in a global retail scenario.
+# 📊 Volunteer Management Database (MySQL)
 
-# 📊 ClassicModels SQL Database
+## 1. Introduction
+This repository contains the **MySQL database design and scripts** for a Volunteer Management System.  
+It supports managing **volunteers, events, participation history, and skills** while ensuring **secure user authentication**.
 
-A fully structured SQL dataset simulating a real-world **order management system** for a global classic car retailer. This schema represents core business operations such as customer management, product inventory, order processing, payments, employee organization, and geographic office distribution.
-
-This database is ideal for:
-- Developing and testing **enterprise-grade applications**
-- Building **analytics dashboards** (e.g., sales trends, regional performance)
-- Prototyping **CRM or ERP platforms**
-- Practicing SQL for **interviews** or **certifications**
-- Teaching **relational database design** in real-world scenarios
+The database is ready to integrate with **web application** and follows **best practices for data security**.
 
 ---
-![trend](https://github.com/ravenfire24/Retail-sql-database/blob/main/Retail-sql-database.gif)
+
+## 2. Core Features
+- 🔑 **Secure Authentication** – Passwords are stored as encrypted hashes.
+- 🗂 **Well-Structured Schema** – Normalized tables for efficiency.
+- 📅 **Event Tracking** – Manage event details, skills required, and urgency.
+- 📝 **Volunteer Records** – Track participation history and availability.
+- 🌎 **Location Support** – State codes and names stored in a dedicated table.
+
+---
+
+## 3. Database Tables
+| Table | Description |
+|-------|-------------|
+| `volunteermgmt_usercredentials` | User IDs with encrypted passwords |
+| `volunteermgmt_userprofile` | Volunteer personal details, skills, preferences, and availability |
+| `volunteermgmt_eventdetails` | Event descriptions, locations, and requirements |
+| `volunteermgmt_volunteerhistory` | Records of volunteer participation |
+| `volunteermgmt_states` | List of state codes and names |
+| `volunteermgmt_notifications` | Messages/alerts for users |
+| `volunteermgmt_required_skills` | Skills needed for specific events |
+| `volunteermgmt_skills` | Master list of all skills |
+| `volunteermgmt_volunteer_skills` | Links volunteers to their skills |
+| `volunteermgmt_volunteer_availability` | When volunteers are available |
+| `volunteermgmt_verification_codes` | Codes for email/SMS verification |
+
+---
 
 ## 🛠️ Installation
 
-### 1. Install MySQL Server
+### 4. Install MySQL Server
 
 Download and install the MySQL Community Server:
 
@@ -27,7 +46,7 @@ Follow the guided installation and:
 - Set your root password
 - Use the default port (3306)
 
-### 2. Install MySQL Workbench
+### 5. Install MySQL Workbench
 
 Use MySQL Workbench to manage your databases visually:
 
@@ -40,44 +59,7 @@ After setup:
 
 ---
 
-## 📂 Repository Contents
 
-| File Name                          | Description                                      |
-|-----------------------------------|--------------------------------------------------|
-| `classicmodels_customers.sql`     | Customer profiles and contact details           |
-| `classicmodels_orders.sql`        | Order transactions and customer order history   |
-| `classicmodels_orderdetails.sql`  | Individual items and quantities per order       |
-| `classicmodels_products.sql`      | Product inventory including prices and stock    |
-| `classicmodels_productlines.sql`  | Product categories                              |
-| `classicmodels_employees.sql`     | Employee records and reporting relationships    |
-| `classicmodels_offices.sql`       | Global office locations                         |
-| `classicmodels_payments.sql`      | Payment tracking for customer orders            |
-| `classicmodels_payment_changes.sql`| Version control and changes in payment data     |
-| `classicmodels_customer_audit.sql`| Audit trail for customer data changes           |
-| `classicmodels_routines.sql`      | Stored procedures/functions for business logic  |
-
----
-
-## 💼 Real-World Use Cases
-
-Here are a few practical business scenarios this schema supports:
-
-- 📦 **Inventory Management**  
-  Track stock levels, backorders, and product availability using `products` and `orderdetails`.
-
-- 📈 **Sales Reporting**  
-  Generate monthly or quarterly sales reports per office or region using `orders`, `payments`, and `offices`.
-
-- 👥 **Customer Retention Analysis**  
-  Analyze repeat customers, total spending, and order frequency from the `customers` and `orders` tables.
-
-- 💳 **Audit and Compliance**  
-  Monitor changes to customer and payment data with `customer_audit` and `payment_changes`.
-
-- 🧑‍💼 **Employee Supervision**  
-  View employee-manager hierarchies and office assignments via `employees` and `offices`.
-
----
 
 ## 📚 MySQL Documentation
 
