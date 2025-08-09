@@ -7,6 +7,7 @@ It supports managing **volunteers, events, participation history, and skills** w
 The database is ready to integrate with **web application** and follows **best practices for data security**.
 
 ---
+![alt text](https://github.com/ravenfire24/Retail-sql-database/blob/main/Volunteer_mgnt_db.png)
 
 ## 2. Core Features
 - 🔑 **Secure Authentication** – Passwords are stored as encrypted hashes.
@@ -70,7 +71,7 @@ To learn more about MySQL and how to interact with this database:
 - [MySQL Workbench User Guide](https://dev.mysql.com/doc/workbench/en/)
 - [SQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.7/en/)
 
-![alt text](https://github.com/ravenfire24/Retail-sql-database/blob/main/Screenshot%204.png)
+
 
 
 
