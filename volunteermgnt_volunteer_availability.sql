@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `volunteermgnt` /*!40100 DEFAULT CHARACTER SET ut
 USE `volunteermgnt`;
 -- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
 --
--- Host: mydemoserver-quickstart.mysql.database.azure.com    Database: volunteermgnt
+
 -- ------------------------------------------------------
 -- Server version	8.0.41-azure
 
@@ -54,3 +54,4 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-08-09 18:05:03
+
